@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:padding="10dp"
+
+
+    android:background="@color/backgroundcolor">
+
+    <LinearLayout
+        android:clipChildren="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.ActionMenuView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:background="@color/white1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+           android:layout_marginRight="5dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="-15dp"
+
+
+            >
+
+
+            <LinearLayout
+
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/event"
+                    android:layout_width="61dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/circbackgroundpurplele"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_opacity_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Event"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Join with Us"
+                    android:textColor="@color/yellow" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.ActionMenuView>
+
+        <android.support.v7.widget.ActionMenuView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:background="@color/white1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="-15dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+
+                    android:id="@+id/post"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/circlebackgroungpink"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_sms_black_24dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Post"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Post Blood Requests"
+                    android:textColor="@color/yellow" />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.ActionMenuView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipChildren="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.ActionMenuView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:background="@color/white1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="-15dp"
+
+
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/noti"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/circlebackgroundyellow"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_notifications_active_black_24dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Notification"
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Messages"
+                    android:textColor="@color/yellow"
+                    android:padding="5dp"/>
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.ActionMenuView>
+
+        <android.support.v7.widget.ActionMenuView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:background="@color/white1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="-15dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/circlebackgrounggreen"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_person_black_24dp"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Profile"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Owner Details"
+                    android:textColor="@color/yellow"
+                    android:padding="5dp"/>
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.ActionMenuView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.ActionMenuView
+            android:id="@+id/bloodbank1"
+            android:layout_width="313dp"
+            android:layout_height="142dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-55dp"
+            android:background="@color/white1"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" />
+
+
+            <ImageView
+                android:layout_width="132dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circlebackgroundorange"
+                android:padding="19dp"
+                android:src="@drawable/ic_pin_drop_black_24dp" />
+
+            <Button
+                android:id="@+id/bloodbank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="30dp"
+                android:width="200dp"
+                android:height="100dp"
+                android:text="Blood Bank\n (stored blood Details)"
+
+                />
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+
+                android:text="Blood Bank"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+
+                android:padding="5dp"
+                android:text="Donate Your blood"
+                android:textColor="@color/yellow" />
+
+        </android.support.v7.widget.ActionMenuView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/manin_container"></FrameLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

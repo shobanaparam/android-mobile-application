@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@color/pink1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/pink1"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:text="Request Blood"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="text"
+                android:hint="Name"
+                android:drawableLeft="@drawable/ic_person"/>
+
+            <EditText
+                android:id="@+id/editBloodGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="text"
+                android:hint="Blood Group"
+                android:drawableLeft="@drawable/ic_bloodgroup"/>
+
+            <EditText
+                android:id="@+id/editUnit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number"
+                android:hint="No of Unit"
+                android:drawableLeft="@drawable/ic_unit"/>
+
+            <EditText
+                android:id="@+id/editHospital"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="text"
+                android:hint="Hospital"
+                android:drawableLeft="@drawable/ic_hospital"/>
+
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number"
+                android:hint="Phone Number"
+                android:drawableLeft="@drawable/ic_phone" />
+
+            <EditText
+                android:id="@+id/editPlace"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="text"
+                android:hint="Place"
+                android:drawableLeft="@drawable/ic_place"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPost"
+            android:layout_marginTop="-20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="Post"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnViewRequests"
+            android:layout_marginTop="-20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="View Requests"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
